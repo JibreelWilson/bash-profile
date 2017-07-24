@@ -1,0 +1,24 @@
+echo "Hello, J.B."
+export PS1="\n\W "
+
+alias slt='open -a "Sublime Text"'
+alias c='clear'
+alias sl='ls'
+alias als='ls -alt'
+alias ll='ls -la'
+
+##Go Back Home##
+alias ~="cd ~"
+alias touch='n'
+alias mk='mkdir'
+
+## a quick way to get out of current directory ##
+alias ..='cd ..'
+alias ...='cd ../../../'
+alias ....='cd ../../../../'
+alias .....='cd ../../../../../'
+
+##Git##
+alias add="git add -A"
+alias com="git commit -m"
+alias gstat="git status"
